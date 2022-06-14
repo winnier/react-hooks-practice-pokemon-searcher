@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Card } from "semantic-ui-react";
 
 function PokemonCard(props) {
-  const { key, name, sprites, hp } = props
+  const { name, sprites, hp } = props
   const [useFrontSprite, setUseFrontSprite] = useState(true)
 
   return (
